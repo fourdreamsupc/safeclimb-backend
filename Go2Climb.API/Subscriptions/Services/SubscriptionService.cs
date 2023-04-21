@@ -1,10 +1,10 @@
-﻿using Go2Climb.API.Domain.Repositories;
-using Go2Climb.API.Domain.Services;
-using Go2Climb.API.Domain.Services.Communication;
-using Go2Climb.API.Shared.Domain.Repositories;
+﻿using Go2Climb.API.Shared.Domain.Repositories;
 using Go2Climb.API.Subscriptions.Domain.Models;
+using Go2Climb.API.Subscriptions.Domain.Repositories;
+using Go2Climb.API.Subscriptions.Domain.Services;
+using Go2Climb.API.Subscriptions.Domain.Services.Communication;
 
-namespace Go2Climb.API.Services
+namespace Go2Climb.API.Subscriptions.Services
 {
     public class SubscriptionService : ISubscriptionService
     {

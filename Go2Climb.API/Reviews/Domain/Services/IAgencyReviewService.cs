@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-using Go2Climb.API.Domain.Services.Communication;
-using Go2Climb.API.Reviews.Domain.Models;
+﻿using Go2Climb.API.Reviews.Domain.Models;
 using Go2Climb.API.Reviews.Domain.Services.Communication;
 
 namespace Go2Climb.API.Reviews.Domain.Services

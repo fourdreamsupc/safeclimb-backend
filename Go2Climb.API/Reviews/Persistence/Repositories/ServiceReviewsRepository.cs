@@ -1,9 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Go2Climb.API.Domain.Repositories;
-using Go2Climb.API.Domain.Services;
-using Go2Climb.API.Persistence.Contexts;
+﻿using Go2Climb.API.Persistence.Contexts;
 using Go2Climb.API.Reviews.Domain.Models;
 using Go2Climb.API.Reviews.Domain.Repositories;
 using Go2Climb.API.Shared.Persistence.Repositories;

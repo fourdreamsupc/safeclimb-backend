@@ -1,6 +1,6 @@
 ﻿using Go2Climb.API.Subscriptions.Domain.Models;
 
-namespace Go2Climb.API.Domain.Repositories
+namespace Go2Climb.API.Subscriptions.Domain.Repositories
 {
     public interface ISubscriptionRepository
     {

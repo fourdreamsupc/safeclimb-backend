@@ -1,7 +1,7 @@
-﻿using Go2Climb.API.Domain.Services.Communication;
-using Go2Climb.API.Subscriptions.Domain.Models;
+﻿using Go2Climb.API.Subscriptions.Domain.Models;
+using Go2Climb.API.Subscriptions.Domain.Services.Communication;
 
-namespace Go2Climb.API.Domain.Services
+namespace Go2Climb.API.Subscriptions.Domain.Services
 {
     public interface ISubscriptionService
     {

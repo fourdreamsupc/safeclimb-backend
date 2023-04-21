@@ -1,10 +1,10 @@
-﻿using Go2Climb.API.Domain.Repositories;
-using Go2Climb.API.Persistence.Contexts;
+﻿using Go2Climb.API.Persistence.Contexts;
 using Go2Climb.API.Shared.Persistence.Repositories;
 using Go2Climb.API.Subscriptions.Domain.Models;
+using Go2Climb.API.Subscriptions.Domain.Repositories;
 using Microsoft.EntityFrameworkCore;
 
-namespace Go2Climb.API.Persistence.Repositories
+namespace Go2Climb.API.Subscriptions.Persistence.Repositories
 {
     public class SubscriptionRepository : BaseRepository, ISubscriptionRepository
     {
