@@ -5,9 +5,12 @@ using System.Threading.Tasks;
 using Go2Climb.API.Domain.Models;
 using Go2Climb.API.Domain.Repositories;
 using Go2Climb.API.Persistence.Contexts;
+using Go2Climb.API.Reviews.Domain.Models;
+using Go2Climb.API.Reviews.Domain.Repositories;
+using Go2Climb.API.Shared.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
 
-namespace Go2Climb.API.Persistence.Repositories
+namespace Go2Climb.API.Reviews.Persistence.Repositories
 {
     public class AgencyReviewsRepository : BaseRepository, IAgencyReviewRepository
     {
@@ -45,6 +48,36 @@ namespace Go2Climb.API.Persistence.Repositories
         public void Remove(AgencyReview agencyReview)
         {
             _context.AgencyReviews.Remove(agencyReview);
+        }
+
+        Task<IEnumerable<AgencyReview>> IAgencyReviewRepository.ListAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<IEnumerable<AgencyReview>> IAgencyReviewRepository.ListByAgencyId(int agencyId)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<IEnumerable<AgencyReview>> IAgencyReviewRepository.ListByCustomerId(int customerId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task AddAsync(AgencyReview agencyReview)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<AgencyReview> IAgencyReviewRepository.FindByIdAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Remove(AgencyReview agencyReview)
+        {
+            throw new NotImplementedException();
         }
     }
 }

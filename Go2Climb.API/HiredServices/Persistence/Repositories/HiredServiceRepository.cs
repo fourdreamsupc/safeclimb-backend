@@ -6,7 +6,7 @@ using Go2Climb.API.Domain.Repositories;
 using Go2Climb.API.Persistence.Contexts;
 using Microsoft.EntityFrameworkCore;
 
-namespace Go2Climb.API.Persistence.Repositories
+namespace Go2Climb.API.HiredServices.Persistence.Repositories
 {
     public class HiredServiceRepository : BaseRepository, IHiredServiceRepository
     {

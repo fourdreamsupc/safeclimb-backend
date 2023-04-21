@@ -1,4 +1,4 @@
-﻿namespace Go2Climb.API.Domain.Models
+﻿namespace Go2Climb.API.HiredServices.Domain.Models
 {
     public class HiredService
     {

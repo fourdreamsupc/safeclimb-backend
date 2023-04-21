@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Go2Climb.API.Customers.Domain.Models;
 using Go2Climb.API.Customers.Domain.Services;
+using Go2Climb.API.Customers.Resources;
 using Go2Climb.API.Extensions;
 using Go2Climb.API.Resources;
 using Go2Climb.API.Security.Authorization.Attributes;

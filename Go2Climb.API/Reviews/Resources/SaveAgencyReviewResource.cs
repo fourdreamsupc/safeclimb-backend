@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Go2Climb.API.Resources
+namespace Go2Climb.API.Reviews.Resources
 {
     public class SaveAgencyReviewResource
     {

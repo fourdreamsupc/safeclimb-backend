@@ -1,7 +1,9 @@
 ﻿using System.Collections.Generic;
+using Go2Climb.API.Activities.Domain.Models;
 using Go2Climb.API.Agencies.Domain.Models;
+using Go2Climb.API.Reviews.Domain.Models;
 
-namespace Go2Climb.API.Domain.Models
+namespace Go2Climb.API.Services.Domain.Models
 {
     public class Service
     {

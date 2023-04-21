@@ -4,11 +4,14 @@ using AutoMapper;
 using Go2Climb.API.Domain.Models;
 using Go2Climb.API.Domain.Services;
 using Go2Climb.API.Extensions;
+using Go2Climb.API.HiredServices.Domain.Models;
+using Go2Climb.API.HiredServices.Domain.Services;
+using Go2Climb.API.HiredServices.Resources;
 using Go2Climb.API.Resources;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 
-namespace Go2Climb.API.Controllers
+namespace Go2Climb.API.HiredServices.Controllers
 {
     [Route("api/v1/[controller]")]
     public class HiredServiceController : ControllerBase

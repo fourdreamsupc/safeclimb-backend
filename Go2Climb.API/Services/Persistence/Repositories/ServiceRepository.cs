@@ -1,13 +1,11 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Go2Climb.API.Domain.Models;
-using Go2Climb.API.Domain.Repositories;
-using Go2Climb.API.Persistence.Contexts;
+﻿using Go2Climb.API.Persistence.Contexts;
+using Go2Climb.API.Services.Domain.Models;
+using Go2Climb.API.Services.Domain.Repositories;
+using Go2Climb.API.Shared.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
 
-namespace Go2Climb.API.Persistence.Repositories
+namespace Go2Climb.API.Services.Persistence.Repositories
 {
     public class ServiceRepository : BaseRepository, IServiceRepository
     {

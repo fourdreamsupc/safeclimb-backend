@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Go2Climb.API.Customers.Domain.Models;
 using Go2Climb.API.Customers.Domain.Repositories;
 using Go2Climb.API.Persistence.Contexts;
+using Go2Climb.API.Shared.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 namespace Go2Climb.API.Customers.Persistence.Repositories

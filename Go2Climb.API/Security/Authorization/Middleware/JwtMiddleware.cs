@@ -1,5 +1,6 @@
 using System.Linq;
 using System.Threading.Tasks;
+using Go2Climb.API.Customers.Domain.Services;
 using Go2Climb.API.Domain.Services;
 using Go2Climb.API.Security.Authorization.Handlers.Interfaces;
 using Go2Climb.API.Security.Domain.Services;

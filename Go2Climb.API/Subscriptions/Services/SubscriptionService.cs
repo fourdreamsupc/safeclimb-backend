@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using Go2Climb.API.Domain.Models;
-using Go2Climb.API.Domain.Repositories;
+﻿using Go2Climb.API.Domain.Repositories;
 using Go2Climb.API.Domain.Services;
 using Go2Climb.API.Domain.Services.Communication;
+using Go2Climb.API.Shared.Domain.Repositories;
+using Go2Climb.API.Subscriptions.Domain.Models;
 
 namespace Go2Climb.API.Services
 {

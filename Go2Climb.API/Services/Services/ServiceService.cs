@@ -1,12 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Go2Climb.API.Agencies.Domain.Repositories;
 using Go2Climb.API.Domain.Models;
 using Go2Climb.API.Domain.Repositories;
 using Go2Climb.API.Domain.Services;
 using Go2Climb.API.Domain.Services.Communication;
+using Go2Climb.API.Services.Domain.Models;
+using Go2Climb.API.Services.Domain.Repositories;
+using Go2Climb.API.Services.Domain.Services;
+using Go2Climb.API.Services.Domain.Services.Communication;
+using Go2Climb.API.Shared.Domain.Repositories;
 
-namespace Go2Climb.API.Services
+namespace Go2Climb.API.Services.Services
 {
     public class ServiceService : IServiceService
     {

@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Go2Climb.API.Domain.Models;
 
-namespace Go2Climb.API.Domain.Repositories
+namespace Go2Climb.API.HiredServices.Domain.Repositories
 {
     public interface IHiredServiceRepository
     {

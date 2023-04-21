@@ -1,7 +1,7 @@
 using Go2Climb.API.Agencies.Domain.Models;
-using Go2Climb.API.Domain.Models;
+using Go2Climb.API.Shared.Domain.Services.Communication;
 
-namespace Go2Climb.API.Domain.Services.Communication
+namespace Go2Climb.API.Agencies.Domain.Services.Communication
 {
     public class AgencyResponse : BaseResponse<Agency>
     {

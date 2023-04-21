@@ -1,6 +1,6 @@
 ﻿using Go2Climb.API.Domain.Models;
 
-namespace Go2Climb.API.Domain.Services.Communication
+namespace Go2Climb.API.Services.Domain.Services.Communication
 {
     public class ServiceResponse : BaseResponse<Service>
     {

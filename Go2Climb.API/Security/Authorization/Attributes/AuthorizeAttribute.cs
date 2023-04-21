@@ -1,6 +1,6 @@
 using System;
 using System.Linq;
-using Go2Climb.API.Domain.Models;
+using Go2Climb.API.Customers.Domain.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;

@@ -1,8 +1,6 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-using Go2Climb.API.Domain.Models;
+﻿using Go2Climb.API.Services.Domain.Models;
 
-namespace Go2Climb.API.Domain.Repositories
+namespace Go2Climb.API.Services.Domain.Repositories
 {
     public interface IServiceRepository
     {

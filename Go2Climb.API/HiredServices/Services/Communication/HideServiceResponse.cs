@@ -1,6 +1,7 @@
-﻿using Go2Climb.API.Domain.Models;
+﻿using Go2Climb.API.HiredServices.Domain.Models;
+using Go2Climb.API.Shared.Domain.Services.Communication;
 
-namespace Go2Climb.API.Domain.Services.Communication
+namespace Go2Climb.API.HiredServices.Domain.Services.Communication
 {
     public class HideServiceResponse : BaseResponse<HiredService>
     {

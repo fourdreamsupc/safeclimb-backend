@@ -1,13 +1,15 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Go2Climb.API.Domain.Models;
 using Go2Climb.API.Domain.Repositories;
 using Go2Climb.API.Domain.Services;
 using Go2Climb.API.Persistence.Contexts;
+using Go2Climb.API.Reviews.Domain.Models;
+using Go2Climb.API.Reviews.Domain.Repositories;
+using Go2Climb.API.Shared.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
 
-namespace Go2Climb.API.Persistence.Repositories
+namespace Go2Climb.API.Reviews.Persistence.Repositories
 {
     public class ServiceReviewsRepository : BaseRepository, IServiceReviewRepository
     {

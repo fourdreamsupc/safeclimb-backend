@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Go2Climb.API.Domain.Models;
+using Go2Climb.API.Reviews.Domain.Models;
 
-namespace Go2Climb.API.Domain.Repositories
+namespace Go2Climb.API.Reviews.Domain.Repositories
 {
     public interface IAgencyReviewRepository
     {

@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using AutoMapper;
 using Go2Climb.API.Customers.Domain.Models;
 using Go2Climb.API.Customers.Domain.Repositories;
@@ -9,9 +6,10 @@ using Go2Climb.API.Customers.Domain.Services.Communication;
 using Go2Climb.API.Security.Authorization.Handlers.Interfaces;
 using Go2Climb.API.Security.Domain.Services.Communication;
 using Go2Climb.API.Security.Exceptions;
+using Go2Climb.API.Shared.Domain.Repositories;
 using BCryptNet = BCrypt.Net.BCrypt;
 
-namespace Go2Climb.API.Services
+namespace Go2Climb.API.Customers.Services
 {
     public class CustomerService : ICustomerService
     {

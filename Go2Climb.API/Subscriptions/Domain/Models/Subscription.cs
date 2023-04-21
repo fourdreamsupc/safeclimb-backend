@@ -1,4 +1,4 @@
-﻿namespace Go2Climb.API.Domain.Models
+﻿namespace Go2Climb.API.Subscriptions.Domain.Models
 {
     public class Subscription
     {

@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Go2Climb.API.Domain.Models;
-using Go2Climb.API.Domain.Repositories;
-using Go2Climb.API.Domain.Services;
-using Go2Climb.API.Domain.Services.Communication;
+using Go2Climb.API.Customers.Domain.Repositories;
+using Go2Climb.API.Reviews.Domain.Models;
+using Go2Climb.API.Reviews.Domain.Repositories;
+using Go2Climb.API.Reviews.Domain.Services;
+using Go2Climb.API.Reviews.Domain.Services.Communication;
+using Go2Climb.API.Services.Domain.Repositories;
+using Go2Climb.API.Shared.Domain.Repositories;
 
-namespace Go2Climb.API.Services
+namespace Go2Climb.API.Reviews.Services
 {
     public class ServiceReviewService : IServiceReviewService
     {

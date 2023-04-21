@@ -1,6 +1,6 @@
 ﻿using Go2Climb.API.Agencies.Resources;
 
-namespace Go2Climb.API.Services.Resources
+namespace Go2Climb.API.Services.Services.Resources
 {
     public class ServiceResource
     {

@@ -1,6 +1,7 @@
-﻿using Go2Climb.API.Services.Resources;
+﻿using Go2Climb.API.Customers.Resources;
+using Go2Climb.API.Services.Resources;
 
-namespace Go2Climb.API.Resources
+namespace Go2Climb.API.HiredServices.Resources
 {
     public class HiredServiceResource
     {

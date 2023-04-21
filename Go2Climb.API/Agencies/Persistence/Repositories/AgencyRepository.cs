@@ -2,9 +2,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Go2Climb.API.Agencies.Domain.Models;
-using Go2Climb.API.Domain.Models;
+using Go2Climb.API.Agencies.Domain.Repositories;
 using Go2Climb.API.Domain.Repositories;
 using Go2Climb.API.Persistence.Contexts;
+using Go2Climb.API.Shared.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 namespace Go2Climb.API.Agencies.Persistence.Repositories

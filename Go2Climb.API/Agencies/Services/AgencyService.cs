@@ -1,16 +1,13 @@
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using AutoMapper;
 using Go2Climb.API.Agencies.Domain.Models;
-using Go2Climb.API.Domain.Models;
-using Go2Climb.API.Domain.Repositories;
-using Go2Climb.API.Domain.Services;
-using Go2Climb.API.Domain.Services.Communication;
+using Go2Climb.API.Agencies.Domain.Repositories;
+using Go2Climb.API.Agencies.Domain.Services;
+using Go2Climb.API.Agencies.Domain.Services.Communication;
 using Go2Climb.API.Resources;
 using Go2Climb.API.Security.Authorization.Handlers.Interfaces;
 using Go2Climb.API.Security.Domain.Services.Communication;
 using Go2Climb.API.Security.Exceptions;
+using Go2Climb.API.Shared.Domain.Repositories;
 using BCryptNet = BCrypt.Net.BCrypt;
 
 namespace Go2Climb.API.Agencies.Services
