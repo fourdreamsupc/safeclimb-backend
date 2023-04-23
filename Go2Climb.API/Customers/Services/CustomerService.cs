@@ -66,10 +66,16 @@ namespace Go2Climb.API.Customers.Services
         public async Task UpdateAsync(int id, UpdateCustomerRequest request)
         {
             var customer = GetById(id);
-            
+        
             //Validate
-            if(_customerRepository.ExistsByEmail(request.Email)) 
-                throw new AppException($"Email {request.Email} is already taken.");
+            if(_customerRepository.ExistsByEmail(request.Email)){
+                Console.WriteLine(customer.Email);
+                var customerWithSameEmail = await _customerRepository.FindByEmailAsync(request.Email);
+                if (customerWithSameEmail.Id != id){
+                    Console.WriteLine("im in");
+                    throw new AppException($"Email {request.Email} is already taken.");
+                }
+            } 
             
             //Hash Password if entered
             if (!string.IsNullOrEmpty(request.Password))

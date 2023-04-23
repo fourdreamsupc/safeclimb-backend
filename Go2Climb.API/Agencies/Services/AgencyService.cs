@@ -70,7 +70,7 @@ namespace Go2Climb.API.Agencies.Services
 
         public async Task UpdateAsync(int id, UpdateAgencyRequest request)
         {
-            var agency = GetById(id);
+            var agency = GetById(id); 
             
             //Validate
             if(_agencyRepository.ExistsByEmail(request.Email)) 
