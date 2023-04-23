@@ -1,10 +1,7 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-using AutoMapper;
+﻿using AutoMapper;
 using Go2Climb.API.Agencies.Domain.Models;
 using Go2Climb.API.Agencies.Domain.Services;
 using Go2Climb.API.Agencies.Resources;
-using Go2Climb.API.Domain.Services;
 using Go2Climb.API.Resources;
 using Go2Climb.API.Security.Authorization.Attributes;
 using Go2Climb.API.Security.Domain.Services.Communication;

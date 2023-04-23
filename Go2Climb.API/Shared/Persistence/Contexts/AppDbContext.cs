@@ -1,4 +1,3 @@
-using AutoMapper;
 using Go2Climb.API.Activities.Domain.Models;
 using Go2Climb.API.Agencies.Domain.Models;
 using Go2Climb.API.Customers.Domain.Models;
@@ -19,7 +18,7 @@ namespace Go2Climb.API.Persistence.Contexts
         public DbSet<AgencyReview> AgencyReviews { get; set; }
         public DbSet<ServiceReview> ServiceReviews { get; set; }
         public DbSet<Customer> Customers { get; set; }
-        public DbSet<HiredService> HideServices { get; set; }
+        public DbSet<HiredService> HiredServices { get; set; }
         public DbSet<Subscription> Subscriptions { get; set; }
         
         protected readonly IConfiguration _configuration;
@@ -27,11 +26,6 @@ namespace Go2Climb.API.Persistence.Contexts
         public AppDbContext(DbContextOptions options, IConfiguration configuration) : base(options)
         {
             _configuration = configuration;
-        }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder builder)
-        {
-            builder.UseMySQL(_configuration.GetConnectionString("DefaultConnection"));
         }
 
         protected override void OnModelCreating(ModelBuilder builder)
@@ -59,7 +53,7 @@ namespace Go2Climb.API.Persistence.Contexts
                 .WithOne(p => p.Customer)
                 .HasForeignKey(p => p.CustomerId);
             builder.Entity<Customer>()
-                .HasMany(p => p.HideServices)
+                .HasMany(p => p.HiredServices)
                 .WithOne(p => p.Customer)
                 .HasForeignKey(p => p.CustomerId);
 

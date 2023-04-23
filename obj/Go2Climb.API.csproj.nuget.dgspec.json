@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\James\\Github\\Go2Climb-backend\\Go2Climb.API.csproj": {}
+    "C:\\Users\\James\\Github\\Go2Climb-backend\\Go2Climb.API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\James\\Github\\Go2Climb-backend\\Go2Climb.API.csproj": {
+    "C:\\Users\\James\\Github\\Go2Climb-backend\\Go2Climb.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\James\\Github\\Go2Climb-backend\\Go2Climb.API.csproj",
+        "projectUniqueName": "C:\\Users\\James\\Github\\Go2Climb-backend\\Go2Climb.API.csproj",
         "projectName": "Go2Climb.API",
-        "projectPath": "c:\\Users\\James\\Github\\Go2Climb-backend\\Go2Climb.API.csproj",
+        "projectPath": "C:\\Users\\James\\Github\\Go2Climb-backend\\Go2Climb.API.csproj",
         "packagesPath": "C:\\Users\\James\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\James\\Github\\Go2Climb-backend\\obj\\",
+        "outputPath": "C:\\Users\\James\\Github\\Go2Climb-backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\James\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,7 +42,7 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[11.0.1, )"
+              "version": "[12.0.0, )"
             },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",

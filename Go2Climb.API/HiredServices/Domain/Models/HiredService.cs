@@ -1,4 +1,7 @@
-﻿namespace Go2Climb.API.HiredServices.Domain.Models
+﻿using Go2Climb.API.Customers.Domain.Models;
+using Go2Climb.API.Services.Domain.Models;
+
+namespace Go2Climb.API.HiredServices.Domain.Models
 {
     public class HiredService
     {

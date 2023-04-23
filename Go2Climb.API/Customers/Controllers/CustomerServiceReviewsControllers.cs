@@ -1,9 +1,7 @@
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using AutoMapper;
-using Go2Climb.API.Domain.Models;
-using Go2Climb.API.Domain.Services;
-using Go2Climb.API.Resources;
+using Go2Climb.API.Reviews.Domain.Models;
+using Go2Climb.API.Reviews.Domain.Services;
+using Go2Climb.API.Reviews.Resources;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 

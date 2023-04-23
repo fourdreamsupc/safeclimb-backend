@@ -1,8 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-using AutoMapper;
-using Go2Climb.API.Domain.Models;
-using Go2Climb.API.Domain.Services;
+﻿using AutoMapper;
 using Go2Climb.API.Extensions;
 using Go2Climb.API.HiredServices.Domain.Models;
 using Go2Climb.API.HiredServices.Domain.Services;

@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Go2Climb.API.Activities.Domain.Models;
 
-namespace Go2Climb.API.Domain.Repositories
+namespace Go2Climb.API.Activities.Domain.Repositories
 {
     public interface IActivityRepository
     {

@@ -1,4 +1,5 @@
 using Go2Climb.API.Services.Resources;
+using Go2Climb.API.Services.Services.Resources;
 
 namespace Go2Climb.API.Activities.Resources
 {

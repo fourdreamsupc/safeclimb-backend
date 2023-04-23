@@ -23,6 +23,7 @@ namespace Go2Climb.API.Customers.Persistence.Repositories
 
         public async Task AddAsync(Customer customer)
         {
+            Console.WriteLine(customer.Photo);
             await _context.Customers.AddAsync(customer);
         }
 

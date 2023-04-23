@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "O0mOKl+oQ6yvttMXBJxYgoI/nRrOPpVrvCmjrsZQzDQ1shre2gfHuuk87wpj2O64vsvJRn/iJe9wHaV0rpfbVQ==",
+  "dgSpecHash": "uN/tHph0P7JbC0bxMo20/T+AjdC6j+m7BWsry4UZVsd5jvDE+Kqd1JoZekyeTI8JKnsBpE0x4kW85G6EuqZFhg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\James\\Github\\Go2Climb-backend\\Go2Climb.API.csproj",
+  "projectFilePath": "C:\\Users\\James\\Github\\Go2Climb-backend\\Go2Climb.API.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\James\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\James\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\James\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\James\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\James\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",

@@ -1,4 +1,5 @@
 using Go2Climb.API.Activities.Domain.Models;
+using Go2Climb.API.Shared.Domain.Services.Communication;
 
 namespace Go2Climb.API.Activities.Domain.Services.Communication
 {

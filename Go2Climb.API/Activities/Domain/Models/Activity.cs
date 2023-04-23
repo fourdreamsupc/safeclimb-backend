@@ -1,4 +1,6 @@
-﻿namespace Go2Climb.API.Activities.Domain.Models
+﻿using Go2Climb.API.Services.Domain.Models;
+
+namespace Go2Climb.API.Activities.Domain.Models
 {
     public class Activity
     {

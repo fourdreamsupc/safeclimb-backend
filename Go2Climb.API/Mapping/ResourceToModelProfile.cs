@@ -1,10 +1,19 @@
-using Go2Climb.API.Domain.Services.Communication;
-using AutoMapper;
+ using AutoMapper;
 using Go2Climb.API.Agencies.Domain.Models;
-using Go2Climb.API.Domain.Models;
 using Go2Climb.API.Resources;
 using Go2Climb.API.Security.Domain.Services.Communication;
-using Org.BouncyCastle.Asn1.X509;
+using Go2Climb.API.Activities.Resources;
+using Go2Climb.API.Services.Resources;
+using Go2Climb.API.Customers.Domain.Models;
+using Go2Climb.API.Customers.Resources;
+using Go2Climb.API.Subscriptions.Domain.Models;
+using Go2Climb.API.HiredServices.Resources;
+using Go2Climb.API.Subscriptions.Resources;
+using Go2Climb.API.HiredServices.Domain.Models;
+using Go2Climb.API.Reviews.Resources;
+using Go2Climb.API.Reviews.Domain.Models;
+using Go2Climb.API.Activities.Domain.Models;
+using Go2Climb.API.Services.Domain.Models;
 
 namespace Go2Climb.API.Mapping
 {

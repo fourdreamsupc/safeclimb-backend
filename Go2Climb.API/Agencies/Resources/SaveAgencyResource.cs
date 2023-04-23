@@ -28,5 +28,7 @@ namespace Go2Climb.API.Resources
         
         [Required]
         public string Ruc { get; set; }
+        [Required]
+        public string Photo { get; set; }
     }
 }
